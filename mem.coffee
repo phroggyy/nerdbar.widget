@@ -7,10 +7,10 @@ render: (output) ->
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #D5C4A1
-  font: 11px Osaka-Mono
-  right: 192px
+  color: #d3869b
+  font: 12px 'Operator Mono'
+  right: 198px
   top: 6px
   span
-    color: #9C9486
+    color: #6d6d6d
 """
