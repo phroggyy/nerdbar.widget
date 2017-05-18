@@ -8,7 +8,7 @@ IFS='|' read -r theArtist theName theState <<<"$(osascript <<<'tell application 
         set theState to player state as string
         return theArtist & "|" & theName & "|" & theState
     end tell')" &&
-echo "<span class='title'>$theArtist -</span><class='artist'>$theName</>" || echo "Not Connected To Spotify"
+echo "<span class='title'>$theArtist -</span><class='artist'>$theName</>" || echo "Not Connected to Spotify"
 """
 
 refreshFrequency: 6000
